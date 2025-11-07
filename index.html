@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My College Website</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      scroll-behavior: smooth;
+    }
+    .navbar-brand {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    section {
+      padding: 60px 0;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+    .gallery img {
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======= Navbar ======= -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My College</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#vision">Vision & Mission</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pso">Program Outcomes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#recruiters">Top Recruiters</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= Vision & Mission ======= -->
+  <section id="vision" class="bg-light">
+    <div class="container">
+      <h2 class="section-title">Vision & Mission</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Vision</h4>
+          <p>
+            To be a center of excellence in education, innovation, and research, producing globally competent and socially responsible professionals.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h4>Mission</h4>
+          <ul>
+            <li>To impart high-quality technical education and training.</li>
+            <li>To foster innovation, creativity, and leadership skills.</li>
+            <li>To develop strong industry-institute collaborations.</li>
+            <li>To contribute to sustainable community development.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Program Specific Outcomes ======= -->
+  <section id="pso">
+    <div class="container">
+      <h2 class="section-title">Program Specific Outcomes (PSOs)</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm">
+            <h5>PSO 1</h5>
+            <p>Apply engineering fundamentals to solve real-world technical problems effectively.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm">
+            <h5>PSO 2</h5>
+            <p>Design and develop efficient software and hardware systems for societal needs.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3 shadow-sm">
+            <h5>PSO 3</h5>
+            <p>Demonstrate teamwork, ethics, and lifelong learning in professional practice.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Courses Offered ======= -->
+  <section id="courses" class="bg-light">
+    <div class="container">
+      <h2 class="section-title">Courses Offered</h2>
+      <div class="row text-center">
+        <div class="col-md-3 mb-3">
+          <div class="card shadow-sm p-3">
+            <h5>B.E. Computer Engineering</h5>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card shadow-sm p-3">
+            <h5>B.E. Civil Engineering</h5>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card shadow-sm p-3">
+            <h5>B.E. Mechanical Engineering</h5>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <div class="card shadow-sm p-3">
+            <h5>B.E. Electrical Engineering</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Image Gallery ======= -->
+  <section id="gallery">
+    <div class="container">
+      <h2 class="section-title">Image Gallery of Events</h2>
+      <div class="row gallery">
+        <div class="col-md-4 mb-3">
+          <img src="https://picsum.photos/id/1011/400/250" class="img-fluid" alt="Event 1">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="https://picsum.photos/id/1015/400/250" class="img-fluid" alt="Event 2">
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="https://picsum.photos/id/1016/400/250" class="img-fluid" alt="Event 3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Top Recruiters ======= -->
+  <section id="recruiters" class="bg-light">
+    <div class="container">
+      <h2 class="section-title">Top Recruiters</h2>
+      <div class="row text-center align-items-center">
+        <div class="col-6 col-md-2 mb-3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/TCS_New_Logo.svg" class="img-fluid" alt="TCS Logo">
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Infosys_logo.svg" class="img-fluid" alt="Infosys Logo">
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Wipro_Primary_Logo_Color.svg" class="img-fluid" alt="Wipro Logo">
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Accenture.svg" class="img-fluid" alt="Accenture Logo">
+        </div>
+        <div class="col-6 col-md-2 mb-3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Tech_Mahindra_New_Logo.svg" class="img-fluid" alt="Tech Mahindra Logo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <p>&copy; 2025 My College | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
